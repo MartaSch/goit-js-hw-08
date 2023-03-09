@@ -15,8 +15,8 @@ function save (e) {
 }
 function saveInputElements() {
     const inputElements = {
-        "email": "email.value",
-        "message": "message.value"
+        email: email.value,
+        message: message.value
     };
     localStorage.setItem(FORM_STATE, JSON.stringify(inputElements));
 }
